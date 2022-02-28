@@ -1,0 +1,66 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********** HEADER ************/
+
+#header-logo {
+  margin: 10px;
+}
+
+#header-logo img {
+  width: 72px;
+  float: left;
+  padding-right: 15px;
+}
+
+#header-logo h1 {
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  font-size: 36px;
+  padding: 12px 0;
+  margin: 0;
+}
+
+nav {
+  clear: both;
+}
+
+nav a.button {
+  padding: 10px 50px;
+  font-weight: bold;
+}
+
+/*********** BODY ************/
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+#main {
+  padding: 10%;
+}
+
+/*********** BUTTONS ************/
+.button {
+  background-color: #B3B3B3;
+  color: white;
+  padding: 15px 20px;
+  margin: 0;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #CC002B;
+}
