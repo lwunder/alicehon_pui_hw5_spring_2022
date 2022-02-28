@@ -48,8 +48,26 @@ h1 {
   font-family: 'Source Serif Pro', serif;
 }
 
-#main {
+#container {
   padding: 10%;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th {
+  font-weight: bold;
+}
+
+th, td {
+  border: 2px solid white;
+}
+
+td.button {
+  padding: 10px;
+  border-radius: 4px;
 }
 
 /*********** BUTTONS ************/
@@ -63,4 +81,9 @@ h1 {
 
 .button:hover {
   background-color: #CC002B;
+}
+
+#back-button {
+  margin: 100px 0;
+  float: left;
 }
