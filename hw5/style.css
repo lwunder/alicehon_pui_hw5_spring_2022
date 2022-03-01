@@ -18,7 +18,6 @@ a {
 }
 
 #header-logo img {
-  width: 72px;
   float: left;
   padding-right: 15px;
 }
@@ -127,6 +126,10 @@ td a {
 }
 
 .button:hover {
+  background-color: #8D0016;
+}
+
+.selected {
   background-color: #CC002B;
 }
 
