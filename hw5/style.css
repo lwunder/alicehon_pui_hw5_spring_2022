@@ -1,6 +1,5 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
 }
 
 a {
@@ -54,9 +53,16 @@ h1 {
 }
 
 #container {
-  padding: 10%;
+  padding: 5%;
   width: 60%;
   margin: auto;
+}
+
+h3 {
+  text-align: center;
+  background-color: #CC002B;
+  padding: 5px;
+  color: white;
 }
 
 ul {
@@ -98,7 +104,17 @@ td a {
 }
 
 #appt-details th, td {
-  padding: 5px 7px;
+  padding: 3px 5px;
+}
+
+#qr-code {
+  background-color: #E5E5E5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#instructions {
+  text-align: left;
 }
 
 /*********** BUTTONS ************/
