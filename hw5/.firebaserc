@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "pui-alicehon-app"
-  }
+    "default": "pui-alicehon-app",
+    "Zoo animals": "week7-lab-3473a"
+  },
+  "targets": {}
 }
